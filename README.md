@@ -36,6 +36,6 @@ Download postgres here and follow the download instructions: https://github.com/
 
 Make sure that Postgres is open (there should be an elephant on top of your screen. Then on the command line:
 ```
-createdb master
+createdb investable
 psql -c "CREATE USER master WITH PASSWORD 'investable';"
 ```
