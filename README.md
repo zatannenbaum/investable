@@ -18,7 +18,7 @@ unset DATABASE_PASSWORD
 And at the very bottom of the same file put:
 ```
 export DATABASE_NAME='investable'
-export DATABASE_USER='master'
+export DATABASE_USER='investor'
 export DATABASE_PASSWORD='investable'
 ```
 
@@ -37,5 +37,5 @@ Download postgres here and follow the download instructions: https://github.com/
 Make sure that Postgres is open (there should be an elephant on top of your screen. Then on the command line:
 ```
 createdb investable
-psql -c "CREATE USER master WITH PASSWORD 'investable';"
+psql -c "CREATE USER investor WITH PASSWORD 'investable';"
 ```
